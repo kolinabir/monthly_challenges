@@ -1,3 +1,8 @@
-import random
+def a():
+    global x
+    x = 5
+    return True
 
-print(random.randrange(1, 10))
+
+a()
+print(x)
