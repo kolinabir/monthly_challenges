@@ -1,4 +1,13 @@
 {
   "python.analysis.typeCheckingMode": "basic",
-  "python.languageServer": "Pylance"
+  "python.languageServer": "Pylance",
+  "configurations": [
+    {
+      "name": "Extension",
+      "type": "extensionHost",
+      "request": "launch",
+      "runtimeExecutable": "${execPath}",
+      "args": ["--extensionDevelopmentPath=${workspaceFolder}"]
+    }
+  ]
 }
